@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Async Winsock2">
+      <UniqueIdentifier>{3d895c45-ca4f-460b-8bba-801347c5acc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{69280db1-c860-4453-a3ab-824d3ed8239a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PRW">
+      <UniqueIdentifier>{849b97fc-3aab-4bc9-9c3d-173230f1a087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompiled Headers">
+      <UniqueIdentifier>{aa30b96f-f503-4b01-88b0-1aa5b10533b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography">
+      <UniqueIdentifier>{b0aad3fc-d763-43ec-960d-b14e47776e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{bae55a96-fc14-496b-88ac-4532710f1972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Async Winsock2\Client Socket">
+      <UniqueIdentifier>{51986108-980b-4391-9880-b1d9e7283c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Async Winsock2\Server Socket">
+      <UniqueIdentifier>{3da8ebca-a478-44a6-a129-4482fff47983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native API">
+      <UniqueIdentifier>{bd50dfb6-ccd5-4923-8ab1-dbc20e48d83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Internet Handles">
+      <UniqueIdentifier>{4f9ac683-38e4-4b40-94f6-4d5bf5f9fa9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gProxy Client">
+      <UniqueIdentifier>{741b88ad-5383-497c-a341-33db4965e51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gProxy Main">
+      <UniqueIdentifier>{6610b521-5c99-4911-b446-c619bdcd69c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography\AES Wrappers">
+      <UniqueIdentifier>{4208fdc8-9ac9-4757-aaef-d03adbe5b619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Native Structures">
+      <UniqueIdentifier>{5f0b7890-027c-4523-b59a-7ad52f9421ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IniReader">
+      <UniqueIdentifier>{5a8fb2ed-1e44-4843-9048-93c4d48e07f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IniWriter">
+      <UniqueIdentifier>{5b169507-057b-4565-a867-589a6bf05345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dat Encryption">
+      <UniqueIdentifier>{d485a490-af67-45e5-a44b-c55ecbe7f830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography\Blowfish">
+      <UniqueIdentifier>{48868b38-6611-49c7-b03f-48e312522299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography\DiffieHellman">
+      <UniqueIdentifier>{6c4be418-25a4-49f0-b311-451a73980118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography\Handshakes">
+      <UniqueIdentifier>{934924b3-46c1-4164-a320-1359fd9a9a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography\Main Wrappers">
+      <UniqueIdentifier>{1afffb0e-d701-4005-bb5a-c9f214cf2146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{cd1394d2-9a07-4e5f-8f56-931729628cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLR Runtime Host">
+      <UniqueIdentifier>{7d8432e2-82fd-40e7-a35c-f7b1851012df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bitarray">
+      <UniqueIdentifier>{085de06b-7363-4a45-99cc-36fcb3d4774b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Precompiled Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Precompiled Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="PRW.h">
+      <Filter>PRW</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="gClientNative.h">
+      <Filter>Native API</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clr.h">
+      <Filter>CLR Runtime Host</Filter>
+    </ClInclude>
+    <ClInclude Include="IntNet.h">
+      <Filter>Internet Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="gClient.h">
+      <Filter>gProxy Client</Filter>
+    </ClInclude>
+    <ClInclude Include="gMain.h">
+      <Filter>gProxy Main</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.h">
+      <Filter>Cryptography\AES Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Native Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="IniReader.h">
+      <Filter>IniReader</Filter>
+    </ClInclude>
+    <ClInclude Include="IniWriter.h">
+      <Filter>IniWriter</Filter>
+    </ClInclude>
+    <ClInclude Include="DatEncrypt.h">
+      <Filter>Dat Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffieHellman.h">
+      <Filter>Cryptography\DiffieHellman</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCryptography.h">
+      <Filter>Cryptography\Main Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Blowfish.h">
+      <Filter>Cryptography\Blowfish</Filter>
+    </ClInclude>
+    <ClInclude Include="Handshake.h">
+      <Filter>Cryptography\Handshakes</Filter>
+    </ClInclude>
+    <ClInclude Include="HandshakeReply.h">
+      <Filter>Cryptography\Handshakes</Filter>
+    </ClInclude>
+    <ClInclude Include="DMap.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPClient.h">
+      <Filter>Async Winsock2\Client Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPServer.h">
+      <Filter>Async Winsock2\Server Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPConnection.h">
+      <Filter>Async Winsock2\Server Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapEx.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="BitArray.h">
+      <Filter>Bitarray</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Precompiled Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="PRW.cpp">
+      <Filter>PRW</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="gClientNative.cpp">
+      <Filter>Native API</Filter>
+    </ClCompile>
+    <ClCompile Include="clr.cpp">
+      <Filter>CLR Runtime Host</Filter>
+    </ClCompile>
+    <ClCompile Include="IntNet.cpp">
+      <Filter>Internet Handles</Filter>
+    </ClCompile>
+    <ClCompile Include="gClient.cpp">
+      <Filter>gProxy Client</Filter>
+    </ClCompile>
+    <ClCompile Include="gMain.cpp">
+      <Filter>gProxy Main</Filter>
+    </ClCompile>
+    <ClCompile Include="gProxy.cpp" />
+    <ClCompile Include="AES.cpp">
+      <Filter>Cryptography\AES Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="IniReader.cpp">
+      <Filter>IniReader</Filter>
+    </ClCompile>
+    <ClCompile Include="IniWriter.cpp">
+      <Filter>IniWriter</Filter>
+    </ClCompile>
+    <ClCompile Include="DatEncrypt.cpp">
+      <Filter>Dat Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffieHellman.cpp">
+      <Filter>Cryptography\DiffieHellman</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCryptography.cpp">
+      <Filter>Cryptography\Main Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Blowfish.cpp">
+      <Filter>Cryptography\Blowfish</Filter>
+    </ClCompile>
+    <ClCompile Include="Handshake.cpp">
+      <Filter>Cryptography\Handshakes</Filter>
+    </ClCompile>
+    <ClCompile Include="HandshakeReply.cpp">
+      <Filter>Cryptography\Handshakes</Filter>
+    </ClCompile>
+    <ClCompile Include="DMap.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClient.cpp">
+      <Filter>Async Winsock2\Client Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPConnection.cpp">
+      <Filter>Async Winsock2\Server Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPServer.cpp">
+      <Filter>Async Winsock2\Server Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapEx.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="BitArray.cpp">
+      <Filter>Bitarray</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="gProxy.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Pictures\g.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ConfigFile1" />
+    <None Include="ConfigFile2" />
+    <None Include="D:\Users\Gaber\Desktop\Random\gProxy Icons\g.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

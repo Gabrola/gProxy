@@ -1,0 +1,1084 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>gProxyAPI</name>
+    </assembly>
+    <members>
+        <member name="T:gProxyAPI.ItemPosition">
+            <summary>Item's position in your gears or inventory</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Inventory">
+            <summary>Inventory</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Head">
+            <summary>Headgear</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Necklace">
+            <summary>Necklace</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Armor">
+            <summary>Armor</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.RightHand">
+            <summary>Right hand weapon</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.LeftHand">
+            <summary>Left hand weapon</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Ring">
+            <summary>Ring</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Bottle">
+            <summary>Bottle talisman</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Boots">
+            <summary>Boots</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Garment">
+            <summary>Garment</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Fan">
+            <summary>Fan talisman</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Tower">
+            <summary>Tower talisman</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.Steed">
+            <summary>Steed</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeHead">
+            <summary>Alternative gear headgear</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeNecklace">
+            <summary>Alternative gear necklace</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeArmor">
+            <summary>Alternative gear armor</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeRightHand">
+            <summary>Alternative right hand weapon</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeLeftHand">
+            <summary>Alternative left hand weapon</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeRing">
+            <summary>Alternative gear ring</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeBottle">
+            <summary>Alternative gear bottle talisman</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeBoots">
+            <summary>Alternative gear boots</summary>
+        </member>
+        <member name="F:gProxyAPI.ItemPosition.AlternativeGarment">
+            <summary>Alternative gear garment</summary>
+        </member>
+        <member name="T:gProxyAPI.gMap">
+            <summary>
+            Map structure
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.gMap.Width">
+            <summary>Map width</summary>
+        </member>
+        <member name="F:gProxyAPI.gMap.Height">
+            <summary>Map height</summary>
+        </member>
+        <member name="P:gProxyAPI.gMap.Item(System.Int32,System.Int32)">
+            <summary>Check if a coordinate is accessible</summary>
+        </member>
+        <member name="P:gProxyAPI.gMap.Name">
+            <summary>Map name</summary>
+        </member>
+        <member name="T:gProxyAPI.UserItem">
+            <summary>Structure of an item in a user's inventory or gear</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.UID">
+            <summary>Item UID</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.StaticID">
+            <summary>Item Static ID</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.Dura">
+            <summary>Item durability/amount</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.MaxDura">
+            <summary>Item max durability/amount</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.Position">
+            <summary>Item position in gear/inventory see <see cref="T:gProxyAPI.ItemPosition"/></summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.RebornEffect">
+            <summary>Item extra attributes</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.FirstSocket">
+            <summary>Item first socket gem</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.SecondSocket">
+            <summary>Item second socket gem</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.Plus">
+            <summary>Item +s</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.Bless">
+            <summary>Item -%</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.Free">
+            <summary>Item bound or not</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.EnchantedHP">
+            <summary>Item enchanted HP</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.Locked">
+            <summary>Item locked or not</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.Color">
+            <summary>Item color</summary>
+        </member>
+        <member name="F:gProxyAPI.UserItem.CompositionProgress">
+            <summary>Item composition points</summary>
+        </member>
+        <member name="P:gProxyAPI.UserItem.Name">
+            <summary>Item name</summary>
+        </member>
+        <member name="T:gProxyAPI.SpellID">
+            <summary>Enumeration of Spell IDs</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Thunder">
+            <summary>Thunder</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Fire">
+            <summary>Fire</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Tornado">
+            <summary>Tornado</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Cure">
+            <summary>Cure</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Lightning">
+            <summary>Lightning</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Accuracy">
+            <summary>Accuracy</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Shield">
+            <summary>Shield</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Superman">
+            <summary>Superman</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Revive">
+            <summary>Revive</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Roar">
+            <summary>Roar</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.HealingRain">
+            <summary>HealingRain</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Invisibility">
+            <summary>Invisibility</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FastBlade">
+            <summary>FastBlade</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.ScentSword">
+            <summary>ScentSword</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.StarofAccuracy">
+            <summary>StarofAccuracy</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.MagicShield">
+            <summary>MagicShield</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Stigma">
+            <summary>Stigma</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Pray">
+            <summary>Pray</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Cyclone">
+            <summary>Cyclone</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Hercules">
+            <summary>Hercules</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FireCircle">
+            <summary>FireCircle</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Blaze">
+            <summary>Blaze</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Inferno">
+            <summary>Inferno</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Volcano">
+            <summary>Volcano</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FireRing">
+            <summary>FireRing</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FireBall">
+            <summary>FireBall</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FireofHell">
+            <summary>FireofHell</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Bomb">
+            <summary>Bomb</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Dash">
+            <summary>Dash</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.AdvancedCure">
+            <summary>AdvancedCure</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Nectar">
+            <summary>Nectar</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FireMeteor">
+            <summary>FireMeteor</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.SpiritHealing">
+            <summary>SpiritHealing</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Golem">
+            <summary>Golem</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FlyingMoon">
+            <summary>FlyingMoon</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.WaterElf">
+            <summary>WaterElf</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.NightDevil">
+            <summary>NightDevil</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.DivineHare">
+            <summary>DivineHare</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Dance2">
+            <summary>Dance2</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Dance3">
+            <summary>Dance3</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Dance4">
+            <summary>Dance4</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Dance5">
+            <summary>Dance5</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Dance6">
+            <summary>Dance6</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Dance7">
+            <summary>Dance7</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Dance8">
+            <summary>Dance8</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Phoenix">
+            <summary>Phoenix</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.RapidFire">
+            <summary>RapidFire</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Scatter">
+            <summary>Scatter</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.ArrowRain">
+            <summary>ArrowRain</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Fly">
+            <summary>Fly</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Intensify">
+            <summary>Intensify</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.SummonGuard">
+            <summary>SummonGuard</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.SummonBat">
+            <summary>SummonBat</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.SummonBatBoss">
+            <summary>SummonBatBoss</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.BloodyBat">
+            <summary>BloodyBat</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FireEvil">
+            <summary>FireEvil</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Skeleton">
+            <summary>Skeleton</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Meditation">
+            <summary>Meditation</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.CruelShade">
+            <summary>CruelShade</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.Guard">
+            <summary>Guard</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.TwofoldBlades">
+            <summary>TwofoldBlades</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.ToxicFog">
+            <summary>ToxicFog</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.PoisonStar">
+            <summary>PoisonStar</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.ArcherBane">
+            <summary>ArcherBane</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.ShurikenVortex">
+            <summary>ShurikenVortex</summary>
+        </member>
+        <member name="F:gProxyAPI.SpellID.FatalStrike">
+            <summary>FatalStrike</summary>
+        </member>
+        <member name="T:gProxyAPI.NPC">
+            <summary>NPC structure</summary>
+        </member>
+        <member name="F:gProxyAPI.NPC.ID">
+            <summary>NPC unique identifier</summary>
+        </member>
+        <member name="F:gProxyAPI.NPC.X">
+            <summary>NPC X coordinate</summary>
+        </member>
+        <member name="F:gProxyAPI.NPC.Y">
+            <summary>NPC Y coordinate</summary>
+        </member>
+        <member name="F:gProxyAPI.NPC.Type">
+            <summary>NPC model/type</summary>
+        </member>
+        <member name="P:gProxyAPI.NPC.Name">
+            <summary>NPC name</summary>
+        </member>
+        <member name="T:gProxyAPI.gProxyHelper">
+            <summary>Extra methods and calculations</summary>
+        </member>
+        <member name="M:gProxyAPI.gProxyHelper.ConvertEventToType(System.Int32)">
+            <summary>Convert an event number to an actual <see cref="T:System.Type"/></summary>
+        </member>
+        <member name="M:gProxyAPI.gProxyHelper.Distance(System.UInt32,System.UInt32,System.UInt32,System.UInt32)">
+            <summary>Measure distance between two points</summary>
+        </member>
+        <member name="M:gProxyAPI.gProxyHelper.Distance(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Measure distance between two points</summary>
+        </member>
+        <member name="M:gProxyAPI.gProxyHelper.DrawMap(gProxyAPI.gMap)">
+            <summary>Draws a map as a bitmap</summary>
+        </member>
+        <member name="M:Algorithms.PriorityQueueB`1.Push(`0)">
+            <summary>
+            Push an object onto the PQ
+            </summary>
+            <param name="O">The new object</param>
+            <returns>The index in the list where the object is _now_. This will change when objects are taken from or put onto the PQ.</returns>
+        </member>
+        <member name="M:Algorithms.PriorityQueueB`1.Pop">
+            <summary>
+            Get the smallest object and remove it.
+            </summary>
+            <returns>The smallest object</returns>
+        </member>
+        <member name="M:Algorithms.PriorityQueueB`1.Update(System.Int32)">
+            <summary>
+            Notify the PQ that the object at position i has changed
+            and the PQ needs to restore order.
+            Since you dont have access to any indexes (except by using the
+            explicit IList.this) you should not call this function without knowing exactly
+            what you do.
+            </summary>
+            <param name="i">The index of the changed object.</param>
+        </member>
+        <member name="M:Algorithms.PriorityQueueB`1.Peek">
+            <summary>
+            Get the smallest object without removing it.
+            </summary>
+            <returns>The smallest object</returns>
+        </member>
+        <member name="T:gProxyAPI.PathFinder">
+            <summary>Path finding class</summary>
+        </member>
+        <member name="M:gProxyAPI.PathFinder.GetPath(gProxyAPI.gMap,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Find a path from a point on a map to another point</summary>
+            <returns>Point[] of path</returns>
+        </member>
+        <member name="M:gProxyAPI.PathFinder.GetPathFast(gProxyAPI.gMap,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>Find a path from a point on a map to another point</summary>
+            <returns>Point[] of path</returns>
+        </member>
+        <member name="T:gProxyAPI.GroundItem">
+            <summary>Structure for an item on the ground</summary>
+        </member>
+        <member name="F:gProxyAPI.GroundItem.GroundUID">
+            <summary>Unique identifier, different from the one you get when you pickup the item</summary>
+        </member>
+        <member name="F:gProxyAPI.GroundItem.StaticID">
+            <summary>Static identifier, the one in itemtype.dat</summary>
+        </member>
+        <member name="F:gProxyAPI.GroundItem.X">
+            <summary>Item X coordinate</summary>
+        </member>
+        <member name="F:gProxyAPI.GroundItem.Y">
+            <summary>Item Y coordinate</summary>
+        </member>
+        <member name="P:gProxyAPI.GroundItem.Name">
+            <summary>Item name</summary>
+        </member>
+        <member name="T:gProxyAPI.AttackType">
+            <summary>
+            Attack types
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.AttackType.CloseRange">
+            <summary>Close range melee attack</summary>
+        </member>
+        <member name="F:gProxyAPI.AttackType.Ranged">
+            <summary>Ranged melee attack</summary>
+        </member>
+        <member name="T:gProxyAPI.ChatType">
+            <summary>
+            Chat types for <see cref="M:gProxyAPI.GameClient.SendClientMessage(System.String,System.String,System.String,gProxyAPI.ChatType,System.Drawing.Color)"/>
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Talk">
+            <summary>Talk chat</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Whisper">
+            <summary>Whisper chat</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Action">
+            <summary>Action chat</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Team">
+            <summary>Team chat</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Guild">
+            <summary>Guild chat</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Top">
+            <summary>Top left message</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Clan">
+            <summary>Clan chat</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Friend">
+            <summary>Friend chat</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Center">
+            <summary>Center message</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Service">
+            <summary>GM message</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.World">
+            <summary>World chat</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.Qualifier">
+            <summary>Qualifier message</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.MiniMap">
+            <summary>Top right message</summary>
+        </member>
+        <member name="F:gProxyAPI.ChatType.DisplayScores">
+            <summary>Adds a message top right</summary>
+        </member>
+        <member name="T:gProxyAPI.CharacterClass">
+            <summary>
+            Enumeration of character classes
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.InternTrojan">
+            <summary>Trojan</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.Trojan">
+            <summary>Trojan</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.VeteranTrojan">
+            <summary>Trojan</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.TigerTrojan">
+            <summary>Trojan</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.DragonTrojan">
+            <summary>Trojan</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.TrojanMaster">
+            <summary>Trojan</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.InternWarrior">
+            <summary>Warrior</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.Warrior">
+            <summary>Warrior</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.BrassWarrior">
+            <summary>Warrior</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.SilverWarrior">
+            <summary>Warrior</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.GoldWarrior">
+            <summary>Warrior</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.WarriorMaster">
+            <summary>Warrior</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.InternArcher">
+            <summary>Archer</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.Archer">
+            <summary>Archer</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.EagleArcher">
+            <summary>Archer</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.TigerArcher">
+            <summary>Archer</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.DragonArcher">
+            <summary>Archer</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.ArcherMaster">
+            <summary>Archer</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.InternNinja">
+            <summary>Ninja</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.Ninja">
+            <summary>Ninja</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.MiddleNinja">
+            <summary>Ninja</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.DarkNinja">
+            <summary>Ninja</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.MysticNinja">
+            <summary>Ninja</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.NinjaMaster">
+            <summary>Ninja</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.InternMonk">
+            <summary>Monk</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.Monk">
+            <summary>Monk</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.DhyanaMonk">
+            <summary>Monk</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.DharmaMonk">
+            <summary>Monk</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.PrajnaMonk">
+            <summary>Monk</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.NirvanaMonk">
+            <summary>Monk</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.InternTaoist">
+            <summary>Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.Taoist">
+            <summary>Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.WaterTaoist">
+            <summary>Water Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.WaterWizard">
+            <summary>Water Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.WaterMaster">
+            <summary>Water Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.WaterSaint">
+            <summary>Water Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.FireTaoist">
+            <summary>Fire Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.FireWizard">
+            <summary>Fire Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.FireMaster">
+            <summary>Fire Taoist</summary>
+        </member>
+        <member name="F:gProxyAPI.CharacterClass.FireSaint">
+            <summary>Fire Taoist</summary>
+        </member>
+        <member name="T:gProxyAPI.MiningDirection">
+            <summary>Mining directions</summary>
+        </member>
+        <member name="F:gProxyAPI.MiningDirection.North">
+            <summary>North</summary>
+        </member>
+        <member name="F:gProxyAPI.MiningDirection.NorthEast">
+            <summary>NorthEast</summary>
+        </member>
+        <member name="F:gProxyAPI.MiningDirection.East">
+            <summary>East</summary>
+        </member>
+        <member name="F:gProxyAPI.MiningDirection.SouthEast">
+            <summary>SouthEast</summary>
+        </member>
+        <member name="F:gProxyAPI.MiningDirection.South">
+            <summary>South</summary>
+        </member>
+        <member name="F:gProxyAPI.MiningDirection.SouthWest">
+            <summary>SouthWest</summary>
+        </member>
+        <member name="F:gProxyAPI.MiningDirection.West">
+            <summary>West</summary>
+        </member>
+        <member name="F:gProxyAPI.MiningDirection.NorthWest">
+            <summary>NorthWest</summary>
+        </member>
+        <member name="T:gProxyAPI.gMapPoint">
+            <summary>Single map point structure</summary>
+        </member>
+        <member name="F:gProxyAPI.gMapPoint.SurfaceType">
+            <summary>Surface type (no possible use)</summary>
+        </member>
+        <member name="F:gProxyAPI.gMapPoint.Height">
+            <summary>Tile height</summary>
+        </member>
+        <member name="P:gProxyAPI.gMapPoint.Accessible">
+            <summary>Coordinate accessible or not</summary>
+        </member>
+        <member name="T:gProxyAPI.GameClient">
+            <summary>
+            Main class for interacting with the client and server
+            </summary>
+        </member>
+        <member name="M:gProxyAPI.GameClient.#ctor(System.IntPtr)">
+            <summary>
+            Initialize the class using the IntPtr client instance
+            </summary>
+            <param name="ClientInstance">IntPtr of the client, get it from your ClientToServer or ServerToClient methods</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.#ctor(System.String)">
+            <summary>
+            Initialize the class using character name
+            </summary>
+            <param name="CharName">Character name</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.SendClient(System.Byte[])">
+            <summary>
+            Sends a packet to the client
+            </summary>
+            <param name="Packet">Packet byte array that includes the 8 byte TQClient</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.SendServer(System.Byte[])">
+            <summary>
+            Sends a packet to the server
+            </summary>
+            <param name="Packet">Packet byte array that includes the 8 byte TQServer</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.DropGold(System.UInt64)">
+            <summary>
+            Drops gold from your character
+            </summary>
+            <param name="Gold">Amount of gold</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.Jump(System.UInt16,System.UInt16)">
+            <summary>
+            Jumps to a location but does not update your screen client-side
+            </summary>
+            <param name="X">X Coordinate</param>
+            <param name="Y">Y Coordinate</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.Shift(System.UInt16,System.UInt16)">
+            <summary>
+            Instant location shift
+            </summary>
+            <param name="X">X Coordinate</param>
+            <param name="Y">Y Coordinate</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.CastSpell(System.UInt32,gProxyAPI.SpellID)">
+            <summary>
+            Casts a spell on an entity or yourself
+            </summary>
+            <param name="UID">Entity UID or your UID</param>
+            <param name="SpellID">Spell ID</param>
+            <remarks>If the spell ID is not found in the enum just enter the numerical ID and type cast it with a (SpellID)</remarks>
+        </member>
+        <member name="M:gProxyAPI.GameClient.CastSpell(System.UInt16,System.UInt16,gProxyAPI.SpellID)">
+            <summary>
+            Casts a spell on a coordinate
+            </summary>
+            <param name="X">X Coordinate</param>
+            <param name="Y">Y Coordinate</param>
+            <param name="SpellID">Spell ID</param>
+            <remarks>If the spell ID is not found in the enum just enter the numerical ID and type cast it with a (SpellID)</remarks>
+        </member>
+        <member name="M:gProxyAPI.GameClient.Mine(gProxyAPI.MiningDirection)">
+            <summary>
+            Starts mining
+            </summary>
+            <param name="Direction">Direction of mining</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.Pickup(System.UInt32)">
+            <summary>
+            Pickup an item from the ground
+            </summary>
+            <param name="GUID">GUID of item</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.Portal(System.UInt16)">
+            <summary>
+            Enters a portal from anywhere
+            </summary>
+            <param name="PortalID">Portal ID</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.PortalWait(System.UInt16,System.UInt32)">
+            <summary>
+            Enters a portal from anywhere and waits until teleport finishes
+            </summary>
+            <param name="PortalID">Portal ID</param>
+            <param name="Timeout">Maximum waiting time in miliseconds</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.UpdateLocation">
+            <summary>
+            Updates your screen client-side with the current coordinates
+            </summary>
+        </member>
+        <member name="M:gProxyAPI.GameClient.Melee(System.UInt32,gProxyAPI.AttackType)">
+            <summary>
+            Attacks an entity given the UID
+            </summary>
+            <param name="UID">UID of the entity</param>
+            <param name="AttackType">The name says it all</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.FSMelee(System.UInt32,System.UInt16,System.UInt16)">
+            <summary>
+            Attacks an entity given the UID
+            </summary>
+            <param name="UID">UID of the entity</param>
+            <param name="AttackType">The name says it all</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.NPCInitiate(System.UInt32)">
+            <summary>
+            Initiates an NPC dialog
+            </summary>
+            <param name="ID">NPC ID</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.NPCReply(System.Byte)">
+            <summary>
+            Replies to an NPC
+            </summary>
+            <param name="Num">Reply number</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.NPCEnd">
+            <summary>
+            Ends an NPC dialog
+            </summary>
+        </member>
+        <member name="M:gProxyAPI.GameClient.AddAbortThread(System.Threading.Thread)">
+            <summary>
+            Aborts a thread if the client disconnects.
+            Make sure to <see cref="M:gProxyAPI.GameClient.RemoveAbortThread(System.IntPtr)"/> right before the thread ends running
+            </summary>
+            <param name="thread">Thread instance</param>
+            <returns>Thread handle</returns>
+        </member>
+        <member name="M:gProxyAPI.GameClient.RemoveAbortThread(System.IntPtr)">
+            <summary>
+            Removes thread from abort on disconnect list
+            </summary>
+            <param name="tHandle">Thread handle obtained from <see cref="M:gProxyAPI.GameClient.AddAbortThread(System.Threading.Thread)"/></param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.SendClientMessage(System.String,System.String,System.String,gProxyAPI.ChatType,System.Drawing.Color)">
+            <summary>
+            Sends a message to the client
+            </summary>
+            <param name="From">Message sender</param>
+            <param name="To">Message recipient</param>
+            <param name="Message">The message itself</param>
+            <param name="Type">Chat type from ChatType enum</param>
+            <param name="Clr">Color of text</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.SendClientMessage(System.String,System.String,System.String,gProxyAPI.ChatType)">
+            <summary>
+            Sends a message to the client
+            </summary>
+            <param name="From">Message sender</param>
+            <param name="To">Message recipient</param>
+            <param name="Message">The message itself</param>
+            <param name="Type">Chat type from ChatType enum</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.SendClientMessage(System.String,gProxyAPI.ChatType,System.Drawing.Color)">
+            <summary>
+            Sends a message to the client
+            </summary>
+            <param name="Message">The message itself</param>
+            <param name="Type">Chat type from ChatType enum</param>
+            <param name="Clr">Color of text</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.SendClientMessage(System.String,gProxyAPI.ChatType)">
+            <summary>
+            Sends a message to the client
+            </summary>
+            <param name="Message">The message itself</param>
+            <param name="Type">Chat type from ChatType enum</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.RemoveEntity(System.UInt32)">
+             <summary>
+             Removes the entity from the entity list
+             </summary>
+            <param name="EntityUID">Entity UID</param>
+        </member>
+        <member name="M:gProxyAPI.GameClient.WaitLoad(System.UInt16,System.UInt32)">
+            <summary>
+            Waits until map is loaded
+            </summary>
+        </member>
+        <member name="M:gProxyAPI.GameClient.GetClients">
+            <summary>
+            Gets all connected clients
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Entities">
+            <summary>
+            Gets all entities (monsters or characters) on the screen
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.NPCs">
+            <summary>
+            Gets all NPCs on the screen
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.UserItems">
+            <summary>
+            Gets all items in the character's inventory and equipped items
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.GroundItems">
+            <summary>
+            Gets all items on the ground
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.NPCReplies">
+            <summary>
+            Gets NPC reply choices
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.CharacterName">
+            <summary>
+            Gets character name
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.NPCMessage">
+            <summary>
+            Gets current message from NPC
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.UID">
+            <summary>
+            Gets character UID
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Model">
+            <summary>
+            Gets character model/mesh
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Gold">
+            <summary>
+            Gets character's amount of gold
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.ConquerPoints">
+            <summary>
+            Gets character's amount of CPs
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.BoundConquerPoints">
+            <summary>
+            Gets character's amount of Bound CPs
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Experience">
+            <summary>
+            Gets character's experience
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.StrengthPoints">
+            <summary>
+            Gets character's strength
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.DexterityPoints">
+            <summary>
+            Gets character's dexterity/agility
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.VitalityPoints">
+            <summary>
+            Gets character's vitality
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.SpiritPoints">
+            <summary>
+            Gets character's spirit
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.StatPoints">
+            <summary>
+            Gets character's amount of stat points
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.HP">
+            <summary>
+            Gets character's HP
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.MP">
+            <summary>
+            Gets character's MP
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.PKPoints">
+            <summary>
+            Gets character's PK Points
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Level">
+            <summary>
+            Gets character's level
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Class">
+            <summary>
+            Gets character's class
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Reborn">
+            <summary>
+            Gets character's reborn status
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.QuizPoints">
+            <summary>
+            Gets character's quiz show points
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.MapID">
+            <summary>
+            Gets character's current map ID
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Stamina">
+            <summary>
+            Gets character's stamina
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.StatusFlag">
+            <summary>
+            Gets character's status flag
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.X">
+            <summary>
+            Gets character's X coordinate
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Y">
+            <summary>
+            Gets character's Y coordinate
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Ping">
+            <summary>
+            Gets the connection latency/ping
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.IsOnAlternativeGear">
+            <summary>
+            Gets whether the character is on alternative gear or not
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.Map">
+            <summary>
+            Get map structure
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.GameClient.MyObjects">
+            <summary>
+            Custom objects for each client
+            </summary>
+        </member>
+        <member name="T:gProxyAPI.NPCReply">
+            <summary>NPC Reply structure</summary>
+        </member>
+        <member name="F:gProxyAPI.NPCReply.Number">
+            <summary>Reply number</summary>
+        </member>
+        <member name="F:gProxyAPI.NPCReply.Message">
+            <summary>Reply message</summary>
+        </member>
+        <member name="T:gProxyAPI.Entity">
+            <summary>
+            Structure for players and monsters
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.Entity.X">
+            <summary>
+            Entity X Coordinate
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.Entity.Y">
+            <summary>
+            Entity Y Coordinate
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.Entity.UID">
+            <summary>
+            Entity unique identifier
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.Entity.StatusFlag">
+            <summary>
+            Entity status flag
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.Entity.Level">
+            <summary>
+            Entity level (monsters only)
+            </summary>
+        </member>
+        <member name="F:gProxyAPI.Entity.HP">
+            <summary>
+            Entity HP (monsters only)
+            </summary>
+        </member>
+        <member name="M:gProxyAPI.Entity.IsMonster">
+            <summary>
+            Gets whether an entity is a monster or not
+            </summary>
+        </member>
+        <member name="M:gProxyAPI.Entity.IsGuard">
+            <summary>
+            Gets whether an entity is a guard or not
+            </summary>
+        </member>
+        <member name="M:gProxyAPI.Entity.#ctor(System.UInt32)">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="P:gProxyAPI.Entity.Name">
+            <summary>
+            Entity name
+            </summary>
+        </member>
+    </members>
+</doc>
